@@ -1,0 +1,41 @@
+/#static {
+    border: 3px solid rgb(255, 208, 0);
+    background-color: rgba(241, 245, 30, 0.4);
+}
+
+/.exemplo-static {
+    padding: 0 5px;
+    position: static;
+}
+
+/#fixed {
+    border: 3px solid rgb(255, 208, 0);
+    background-color: rgba(241, 245, 30, 0.4);
+}
+
+/.exemplo-fixed {
+    position: fixed;
+    bottom: 50px;
+    right: 20px;
+}
+
+#relative {
+    border: 3px solid rgb(255, 208, 0);
+    background-color: rgba(241, 245, 30, 0.4);
+}
+
+.exemplo-relative {
+    position: relative;
+    left: 25px;
+}
+
+#absolute {
+    border: 3px solid rgb(255, 208, 0);
+    background-color: rgba(241, 245, 30, 0.4);
+}
+
+.exemplo-absolute {
+    position: absolute;
+    right: 10px;
+    bottom: 5px;
+}
